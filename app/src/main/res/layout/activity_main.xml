@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jpalcantara.oldjuanchoskapengbarako.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/oldjuancho"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:id="@+id/logo"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/call"
+        android:id="@+id/call"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+63 917 801 4957"
+        android:textColor="@android:color/white"
+        android:id="@+id/phone_text"
+        android:layout_toRightOf="@id/call"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/maps"
+        android:id="@+id/maps"
+        android:layout_below="@id/call"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laguna, Philippines"
+        android:textColor="@android:color/white"
+        android:id="@+id/maps_text"
+        android:layout_below="@id/phone_text"
+        android:layout_toRightOf="@id/maps"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/website"
+        android:id="@+id/website"
+        android:layout_below="@id/maps"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.oldjuanchos.com"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/maps_text"
+        android:layout_toRightOf="@id/website"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/facebook"
+        android:id="@+id/facebook"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/instagram"
+        android:id="@+id/instagram"
+        android:layout_toRightOf="@id/facebook"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/twitter"
+        android:id="@+id/twitter"
+        android:layout_toRightOf="@id/instagram"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pinterest"
+        android:id="@+id/pinterest"
+        android:layout_toRightOf="@id/twitter"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>
