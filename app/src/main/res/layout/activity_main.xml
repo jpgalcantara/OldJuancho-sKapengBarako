@@ -77,12 +77,23 @@
         android:layout_marginTop="10dp"
         android:textStyle="italic"/>
 
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="The finest Barako coffee beans homegrown from Batangas, Philippines"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:layout_marginTop="400dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="50dp"
+        />
+
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/facebook"
         android:id="@+id/facebook"
-        android:layout_marginTop="425dp"
+        android:layout_marginTop="455dp"
         android:layout_marginLeft="80dp"
         />
 
@@ -92,7 +103,7 @@
         android:src="@drawable/instagram"
         android:id="@+id/instagram"
         android:layout_toRightOf="@id/facebook"
-        android:layout_marginTop="425dp"
+        android:layout_marginTop="455dp"
         android:layout_marginLeft="5dp"/>
 
     <ImageView
@@ -101,7 +112,7 @@
         android:src="@drawable/twitter"
         android:id="@+id/twitter"
         android:layout_toRightOf="@id/instagram"
-        android:layout_marginTop="425dp"
+        android:layout_marginTop="455dp"
         android:layout_marginLeft="5dp"/>
 
     <ImageView
@@ -110,7 +121,7 @@
         android:src="@drawable/pinterest"
         android:id="@+id/pinterest"
         android:layout_toRightOf="@id/twitter"
-        android:layout_marginTop="425dp"
+        android:layout_marginTop="455dp"
         android:layout_marginLeft="5dp"/>
 
 </RelativeLayout>
